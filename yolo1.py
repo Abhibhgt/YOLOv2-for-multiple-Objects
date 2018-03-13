@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 12 16:16:01 2018
 
-@author: Abhishek
-"""
 
 
 import cv2
