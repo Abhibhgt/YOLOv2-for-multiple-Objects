@@ -17,6 +17,8 @@ options ={
         'model':'cfg/yolo.cfg',
         'load':'bin/yolo.weights',
         'thershold': 0.3,
+        #uncomment this for GPU version
+        #'gpu':1.0;
 }
 
 tfnet =TFNet(options)
