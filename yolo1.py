@@ -24,7 +24,7 @@ options ={
 tfnet =TFNet(options)
 
 # read the color image and covert to RGB
-img = cv2.imread('street.jpg',cv2.IMREAD_COLOR)
+img = cv2.imread('NAME_OF_YOUR_FILE.jpg',cv2.IMREAD_COLOR)
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # use YOLO to predict the image
